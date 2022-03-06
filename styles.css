@@ -1,0 +1,29 @@
+body {
+    text-transform: capitalize;
+    background-color: #EBEDEF;
+    color: #283747;
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid #AEB6BF;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    flex-shrink: 0;
+}
+.tasks{
+    flex-grow: 1;
+}
+.buttom{
+    flex-shrink: 0;
+}
+.buttom img{
+    width: 100px;
+    height: 100px;
+}
