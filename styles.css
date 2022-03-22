@@ -106,6 +106,7 @@ hr{
     transform: translate(-50%, -50%) scale(0.1);
     color: #333;
     visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
 }
 .container .popup img{
     margin-top: -50px;
@@ -136,6 +137,12 @@ hr{
     color: #fff;
     cursor: pointer;
     width: 100%;
+ }
+
+ .popStyle{
+     visibility: visible;
+     top: 50%;
+     transform: translate(-50%, -50%) scale(1);
  }
 
 @media only screen and (max-width: 820px){
