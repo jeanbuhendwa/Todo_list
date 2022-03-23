@@ -1,7 +1,7 @@
 var button = document.getElementById("button");
 var input = document.getElementById("input");
 var ul = document.querySelector("ul");
-var popup = document.getElementById("popup");
+var popup = document.getElementById("popup")
 
 function inputLength (){
     return input.value.length;
@@ -23,13 +23,8 @@ function addPress(ev){
         addTask();
     }
 }
-
-function openPop(){
+button.addEventListener("click", function(){
     popup.classList.add("popStyle");
-}
-
-function closePop(){
-    popup.classList.remove("popStyle");
-}
+})
 button.addEventListener("click", addClick);
 button.addEventListener("keypress", addPress);
